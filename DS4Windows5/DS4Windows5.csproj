@@ -13,6 +13,7 @@
     <NeutralLanguage></NeutralLanguage>
     <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
     <EnableNETAnalyzers>false</EnableNETAnalyzers>
+    <ServerGarbageCollection>true</ServerGarbageCollection>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
