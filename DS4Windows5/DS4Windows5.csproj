@@ -12,7 +12,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <StartupObject>DS4WinWPF.App</StartupObject>
     <NeutralLanguage></NeutralLanguage>
-    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
     <EnableNETAnalyzers>false</EnableNETAnalyzers>
     <ServerGarbageCollection>true</ServerGarbageCollection>
     <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -62,7 +62,7 @@
     <PackageReference Include="Ookii.Dialogs.Wpf" Version="3.1.0" />
     <PackageReference Include="System.Management" Version="5.0.0" />
     <PackageReference Include="TaskScheduler" Version="2.9.1" />
-    <PackageReference Include="WPFLocalizeExtension" Version="3.6.1" />
+    <PackageReference Include="WPFLocalizeExtension" Version="3.8.0" />
 
     <Reference Include="Nefarius.ViGEm.Client">
       <HintPath>..\libs\$(Platform)\Nefarius.ViGEm.Client\Nefarius.ViGEm.Client.dll</HintPath>

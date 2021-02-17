@@ -1713,8 +1713,11 @@ Suspend support not enabled.", true);
 
         public ImageLocationPaths()
         {
-            //App current = App.Current as App;
-            //current.ThemeChanged += Current_ThemeChanged;
+            App current = App.Current as App;
+            if (current != null)
+            {
+                current.ThemeChanged += Current_ThemeChanged;
+            }
         }
 
         private void Current_ThemeChanged(object sender, EventArgs e)
